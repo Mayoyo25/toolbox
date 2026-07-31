@@ -1,0 +1,12 @@
+{
+  "name": "dev-tools",
+  "version": "1.0.0",
+  "private": true,
+  "bin": {
+    "structure": "./structure/structure.js",
+    "clean": "./clean/clean.js"
+  },
+  "dependencies": {
+    "dev-tools": "link:"
+  }
+}
