@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "bin": {
-    "structure": "./structure/structure.js",
-    "clean": "./clean/clean.js"
+	"structure": "./structure/structure.js",
+	"clean": "./clean/clean.js",
+	"new-entry": "./new-entry/new-entry.js"
   },
   "dependencies": {
-    "dev-tools": "link:"
+	"dev-tools": "link:"
   }
 }
